@@ -29,7 +29,7 @@ li {
 }
 
 nav {
-  background-color: #EDEDED;
+  background-color: rgba(253, 253, 253, 0.9);
   padding: 30px 0;
   position: fixed;
   top: 0;
@@ -39,14 +39,18 @@ nav {
 
 nav.navbar-shrink {
   padding: 15px 0;
-  background-color: rgba(0, 0, 0, 0.9);
-}
-nav.navbar-shrink * {
-  color: white !important;
+  background-color: rgba(253, 253, 253, 0.9);
 }
 
 .light section {
   background-color: black !important;
+}
+
+.light #product {
+  background: none;
+}
+.light #quick {
+  background: none;
 }
 
 .light #navbar {
@@ -87,36 +91,40 @@ nav.navbar-shrink * {
 }
 
 #work {
-  background-color: #EDEDED;
+  background-color: #FDFDFD;
   padding-top: 150px;
 }
 
 #product {
-  background-color: #EDEDED;
+  background: url(../images/Bg.svg), no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #quick {
-  background-color: #EDEDED;
+  background: url(../images/Bg2.svg), no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #content {
-  background-color: #EDEDED;
+  background-color: #FDFDFD;
 }
 
 #table {
-  background-color: #EDEDED;
+  background-color: #FDFDFD;
 }
 
 #clients {
-  background-color: #EDEDED;
+  background-color: #FDFDFD;
 }
 
 #busines {
-  background-color: #EDEDED;
+  background-color: #FDFDFD;
 }
 
 #footer {
-  background-color: #EDEDED;
+  background-color: #FDFDFD;
 }
 
 .navbar__container {
