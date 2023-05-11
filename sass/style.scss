@@ -3,6 +3,14 @@
 
 #navbar {
   background-color: #EDEDED;
+  padding: 30px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar-shrink {
+	padding: 20px 0;
 }
 #work {
   background-color: #EDEDED;
@@ -615,13 +623,12 @@
     font-size: 16px;
     line-height: 35px;
     color: #22343D;
-    padding-bottom: 35px;
+    padding-bottom: 15px;
   }
   .footer__container__message {
     .footer__container__message--logo {
       @include df-ai-jc;
       gap: 14px;
-      padding-bottom: 15px;
       a {
         font-family: 'Poppins';
         font-style: normal;
