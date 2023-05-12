@@ -37,6 +37,24 @@ nav {
   right: 0;
 }
 
+#navbar-responsive {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FDFDFD;
+  transition: 0.5s;
+}
+
+#navbar-open {
+  display: none;
+}
+
 nav.navbar-shrink {
   padding: 15px 0;
   background-color: rgba(253, 253, 253, 0.9);

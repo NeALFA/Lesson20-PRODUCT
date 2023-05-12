@@ -1,0 +1,202 @@
+@media (max-width:1200px) {
+    .table__container .table__container__card__box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+@media (max-width:1100px) {
+    .table__container .table__container__card__box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .table__container .table__container__card{
+        max-width: 280px;
+    }
+    .work__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .work__container__left {
+        width: 50%;
+    }
+    .work__container__right {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+    .menagement__cintainer__left {
+        width: 50%;
+    }
+    .menagement__cintainer__right {
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+    .support__container__left {
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .quick__container .quick__container__img .quick__container__img--footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 110px;
+    }
+    .busines__container {
+        max-width: 80%;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:900px) {
+    .footer__container {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .clients__container .clients__card__box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .table__container .table__container__card__box {
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .menagement__cintainer {
+        flex-wrap: wrap;
+    }
+    .menagement__cintainer__left {
+        width: 100%;
+    }
+    .menagement__cintainer__right {
+        width: 100%;
+        img{
+            width: 80%;
+        }
+    }
+    .support__container {
+        flex-wrap: wrap;
+    }
+    .nav__menu {
+        display: none;
+    }
+    .work__container {
+        display: flex;
+        flex-direction:column;
+        .work__container__left {
+            width: 100%;
+        }
+        .work__container__right {
+            width: 100%;
+            img {
+                width: 85%;
+            }
+        }
+    }
+    .quick__container .quick__container__img {
+        width: 100%;
+        display: flex;
+
+    }
+    .quick__container .quick__container__img .quick__container__img--head {
+        flex-wrap: wrap;
+        gap: 110px;
+        align-items:center;
+        justify-content: center;
+    }
+    .quick__container .quick__container__img .quick__container__img--footer {
+        align-items:center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+}
+@media (max-width:700px) {
+    .product__card {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media (max-width:570px) {
+    .support__container__left {
+        width: 80%;
+        img{
+            width: 100%;
+        }
+    }
+    .quick__container .quick__container__img {
+        img: {
+            width: 30%;
+        }
+    }
+    .navbar__container button {
+        display: none;
+    }
+    .product__card__mini {
+        width: 200px;
+    }
+    .product__card {
+        justify-content: space-between;
+    }
+    .work__container__left {
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 14px;
+        }
+        text-align: center;
+    }
+    .work__container__left--button {
+        flex-wrap: wrap;
+    }
+    #navbar-open, #navbar-close {
+        display: block;
+        background-color: transparent;
+        border:none;
+    }
+}
+
+@media (max-width:500px) {
+    .product__card{
+        justify-content: space-around;
+    }
+    .product__card__mini {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 241px;   
+    }
+    .quick__container .quick__container__img {
+        img {
+            width: 40%;
+        }
+    }
+    .table__container .table__container__card{
+        max-width: 250px;
+    }
+    .busines__container__left h2 {
+        font-size: 24px;
+    }
+    .busines__container img {
+        max-width: 100%;
+    }
+    .footer__container__sign {
+        max-width: 80%;
+    }
+    .footer__container input {
+        max-width: 80%;
+    }
+}
