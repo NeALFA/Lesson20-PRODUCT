@@ -192,4 +192,7 @@
   .footer__container input {
     max-width: 80%;
   }
+  .item {
+    max-width: 250px;
+  }
 }

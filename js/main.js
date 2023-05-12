@@ -35,3 +35,29 @@ function closeNavbar() {
 
 document.getElementById("navbar-open").addEventListener("click", openNavbar);
 document.getElementById("navbar-close").addEventListener("click", closeNavbar);
+
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:false,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:2
+      },
+      750:{
+        items:2
+      },
+      900:{
+        items:2.3
+      },
+      1000:{
+          items:2.8
+      },
+      1200:{
+        items:3
+      }
+  }
+})
